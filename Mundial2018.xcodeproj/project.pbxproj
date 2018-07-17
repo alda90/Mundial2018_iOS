@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3EB75720BCF721003E818E /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3EB75620BCF721003E818E /* PlayersViewController.swift */; };
+		2D6E7E0120B501D500005E77 /* CeldasGralesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E7E0020B501D500005E77 /* CeldasGralesTableViewCell.swift */; };
+		2D6E7E0320B509AE00005E77 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E7E0220B509AE00005E77 /* Session.swift */; };
+		2D93173820B7B96400A07727 /* AlineacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93173720B7B96400A07727 /* AlineacionViewController.swift */; };
+		2DABF43320B3A26D006E4831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DABF43220B3A26D006E4831 /* AppDelegate.swift */; };
+		2DABF43520B3A26D006E4831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DABF43420B3A26D006E4831 /* ViewController.swift */; };
+		2DABF43820B3A26D006E4831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DABF43620B3A26D006E4831 /* Main.storyboard */; };
+		2DABF43A20B3A26F006E4831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DABF43920B3A26F006E4831 /* Assets.xcassets */; };
+		2DABF43D20B3A26F006E4831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DABF43B20B3A26F006E4831 /* LaunchScreen.storyboard */; };
+		2DABF44820B3A26F006E4831 /* Mundial2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DABF44720B3A26F006E4831 /* Mundial2018Tests.swift */; };
+		2DABF45320B3A26F006E4831 /* Mundial2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DABF45220B3A26F006E4831 /* Mundial2018UITests.swift */; };
+		2DABF46120B3D0BC006E4831 /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DABF46020B3D0BC006E4831 /* FixturesViewController.swift */; };
+		2DAE3BBE20B64C7900C2C027 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAE3BBD20B64C7900C2C027 /* MatchViewController.swift */; };
+		2DC0659D20BBB93F004CF351 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0659C20BBB93F004CF351 /* GroupsViewController.swift */; };
+		2DFA6C8920BE504B00EB4C36 /* EstadiumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA6C8820BE504B00EB4C36 /* EstadiumsViewController.swift */; };
+		41D90C341800A07482CBE948 /* Pods_Mundial2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2775006CDBC3FEE9BEE564D5 /* Pods_Mundial2018.framework */; };
+		66D55D8E94CEA681860AC1CD /* Pods_Mundial2018_Mundial2018UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9396D873876A7880B1E128E5 /* Pods_Mundial2018_Mundial2018UITests.framework */; };
+		FE1CE32CDDD4F319F0519814 /* Pods_Mundial2018_Mundial2018Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E31AB690F1CB6BA64867742 /* Pods_Mundial2018_Mundial2018Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DABF44420B3A26F006E4831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DABF42720B3A26D006E4831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DABF42E20B3A26D006E4831;
+			remoteInfo = Mundial2018;
+		};
+		2DABF44F20B3A26F006E4831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DABF42720B3A26D006E4831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DABF42E20B3A26D006E4831;
+			remoteInfo = Mundial2018;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2775006CDBC3FEE9BEE564D5 /* Pods_Mundial2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mundial2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3EB75620BCF721003E818E /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		2D6E7E0020B501D500005E77 /* CeldasGralesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldasGralesTableViewCell.swift; sourceTree = "<group>"; };
+		2D6E7E0220B509AE00005E77 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		2D93173720B7B96400A07727 /* AlineacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineacionViewController.swift; sourceTree = "<group>"; };
+		2DABF42F20B3A26D006E4831 /* Mundial2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mundial2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DABF43220B3A26D006E4831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DABF43420B3A26D006E4831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DABF43720B3A26D006E4831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DABF43920B3A26F006E4831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DABF43C20B3A26F006E4831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DABF43E20B3A26F006E4831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DABF44320B3A26F006E4831 /* Mundial2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mundial2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DABF44720B3A26F006E4831 /* Mundial2018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mundial2018Tests.swift; sourceTree = "<group>"; };
+		2DABF44920B3A26F006E4831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DABF44E20B3A26F006E4831 /* Mundial2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mundial2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DABF45220B3A26F006E4831 /* Mundial2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mundial2018UITests.swift; sourceTree = "<group>"; };
+		2DABF45420B3A26F006E4831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DABF46020B3D0BC006E4831 /* FixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewController.swift; sourceTree = "<group>"; };
+		2DAE3BBD20B64C7900C2C027 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		2DC0659C20BBB93F004CF351 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		2DFA6C8820BE504B00EB4C36 /* EstadiumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadiumsViewController.swift; sourceTree = "<group>"; };
+		3228657F36EA986452B155E3 /* Pods-Mundial2018-Mundial2018Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018-Mundial2018Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C85299F1FA87EA75152F3B3 /* Pods-Mundial2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018/Pods-Mundial2018.release.xcconfig"; sourceTree = "<group>"; };
+		65EFDE851B8A83FC1BB2771C /* Pods-Mundial2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018/Pods-Mundial2018.debug.xcconfig"; sourceTree = "<group>"; };
+		6E31AB690F1CB6BA64867742 /* Pods_Mundial2018_Mundial2018Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mundial2018_Mundial2018Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE64BB3F1E36BB119134E2F /* Pods-Mundial2018-Mundial2018UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018-Mundial2018UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9396D873876A7880B1E128E5 /* Pods_Mundial2018_Mundial2018UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mundial2018_Mundial2018UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F3A029ED48C08E0984B871 /* Pods-Mundial2018-Mundial2018Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018-Mundial2018Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2481ABAB650B38D1C7DA3B6 /* Pods-Mundial2018-Mundial2018UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018-Mundial2018UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DABF42C20B3A26D006E4831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D90C341800A07482CBE948 /* Pods_Mundial2018.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DABF44020B3A26F006E4831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1CE32CDDD4F319F0519814 /* Pods_Mundial2018_Mundial2018Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DABF44B20B3A26F006E4831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D55D8E94CEA681860AC1CD /* Pods_Mundial2018_Mundial2018UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6E7DFF20B501C200005E77 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E7E0020B501D500005E77 /* CeldasGralesTableViewCell.swift */,
+				2D6E7E0220B509AE00005E77 /* Session.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2DABF42620B3A26D006E4831 = {
+			isa = PBXGroup;
+			children = (
+				2DABF43120B3A26D006E4831 /* Mundial2018 */,
+				2DABF44620B3A26F006E4831 /* Mundial2018Tests */,
+				2DABF45120B3A26F006E4831 /* Mundial2018UITests */,
+				2DABF43020B3A26D006E4831 /* Products */,
+				C3AF87F39B6A48405B8590F7 /* Pods */,
+				788BDFACF6DC668115594B43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DABF43020B3A26D006E4831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DABF42F20B3A26D006E4831 /* Mundial2018.app */,
+				2DABF44320B3A26F006E4831 /* Mundial2018Tests.xctest */,
+				2DABF44E20B3A26F006E4831 /* Mundial2018UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DABF43120B3A26D006E4831 /* Mundial2018 */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E7DFF20B501C200005E77 /* Classes */,
+				2DABF43220B3A26D006E4831 /* AppDelegate.swift */,
+				2DABF43420B3A26D006E4831 /* ViewController.swift */,
+				2DABF43620B3A26D006E4831 /* Main.storyboard */,
+				2DABF43920B3A26F006E4831 /* Assets.xcassets */,
+				2DABF43B20B3A26F006E4831 /* LaunchScreen.storyboard */,
+				2DABF43E20B3A26F006E4831 /* Info.plist */,
+				2DABF46020B3D0BC006E4831 /* FixturesViewController.swift */,
+				2DAE3BBD20B64C7900C2C027 /* MatchViewController.swift */,
+				2D93173720B7B96400A07727 /* AlineacionViewController.swift */,
+				2DC0659C20BBB93F004CF351 /* GroupsViewController.swift */,
+				2D3EB75620BCF721003E818E /* PlayersViewController.swift */,
+				2DFA6C8820BE504B00EB4C36 /* EstadiumsViewController.swift */,
+			);
+			path = Mundial2018;
+			sourceTree = "<group>";
+		};
+		2DABF44620B3A26F006E4831 /* Mundial2018Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2DABF44720B3A26F006E4831 /* Mundial2018Tests.swift */,
+				2DABF44920B3A26F006E4831 /* Info.plist */,
+			);
+			path = Mundial2018Tests;
+			sourceTree = "<group>";
+		};
+		2DABF45120B3A26F006E4831 /* Mundial2018UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DABF45220B3A26F006E4831 /* Mundial2018UITests.swift */,
+				2DABF45420B3A26F006E4831 /* Info.plist */,
+			);
+			path = Mundial2018UITests;
+			sourceTree = "<group>";
+		};
+		788BDFACF6DC668115594B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2775006CDBC3FEE9BEE564D5 /* Pods_Mundial2018.framework */,
+				6E31AB690F1CB6BA64867742 /* Pods_Mundial2018_Mundial2018Tests.framework */,
+				9396D873876A7880B1E128E5 /* Pods_Mundial2018_Mundial2018UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3AF87F39B6A48405B8590F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65EFDE851B8A83FC1BB2771C /* Pods-Mundial2018.debug.xcconfig */,
+				3C85299F1FA87EA75152F3B3 /* Pods-Mundial2018.release.xcconfig */,
+				97F3A029ED48C08E0984B871 /* Pods-Mundial2018-Mundial2018Tests.debug.xcconfig */,
+				3228657F36EA986452B155E3 /* Pods-Mundial2018-Mundial2018Tests.release.xcconfig */,
+				E2481ABAB650B38D1C7DA3B6 /* Pods-Mundial2018-Mundial2018UITests.debug.xcconfig */,
+				7FE64BB3F1E36BB119134E2F /* Pods-Mundial2018-Mundial2018UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DABF42E20B3A26D006E4831 /* Mundial2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DABF45720B3A26F006E4831 /* Build configuration list for PBXNativeTarget "Mundial2018" */;
+			buildPhases = (
+				A6CFFC57ACAE648F87A95C4E /* [CP] Check Pods Manifest.lock */,
+				2DABF42B20B3A26D006E4831 /* Sources */,
+				2DABF42C20B3A26D006E4831 /* Frameworks */,
+				2DABF42D20B3A26D006E4831 /* Resources */,
+				E42DF2AFB607F57B267E3D1F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mundial2018;
+			productName = Mundial2018;
+			productReference = 2DABF42F20B3A26D006E4831 /* Mundial2018.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DABF44220B3A26F006E4831 /* Mundial2018Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DABF45A20B3A26F006E4831 /* Build configuration list for PBXNativeTarget "Mundial2018Tests" */;
+			buildPhases = (
+				1187C652EF1198D87399F19C /* [CP] Check Pods Manifest.lock */,
+				2DABF43F20B3A26F006E4831 /* Sources */,
+				2DABF44020B3A26F006E4831 /* Frameworks */,
+				2DABF44120B3A26F006E4831 /* Resources */,
+				3F8C62B23A98B5DB9C66D7E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DABF44520B3A26F006E4831 /* PBXTargetDependency */,
+			);
+			name = Mundial2018Tests;
+			productName = Mundial2018Tests;
+			productReference = 2DABF44320B3A26F006E4831 /* Mundial2018Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DABF44D20B3A26F006E4831 /* Mundial2018UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DABF45D20B3A26F006E4831 /* Build configuration list for PBXNativeTarget "Mundial2018UITests" */;
+			buildPhases = (
+				8E71546515D7B2C8E26F5941 /* [CP] Check Pods Manifest.lock */,
+				2DABF44A20B3A26F006E4831 /* Sources */,
+				2DABF44B20B3A26F006E4831 /* Frameworks */,
+				2DABF44C20B3A26F006E4831 /* Resources */,
+				F09DF11D6ACC1C41C91B6565 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DABF45020B3A26F006E4831 /* PBXTargetDependency */,
+			);
+			name = Mundial2018UITests;
+			productName = Mundial2018UITests;
+			productReference = 2DABF44E20B3A26F006E4831 /* Mundial2018UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DABF42720B3A26D006E4831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Aldair;
+				TargetAttributes = {
+					2DABF42E20B3A26D006E4831 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					2DABF44220B3A26F006E4831 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 2DABF42E20B3A26D006E4831;
+					};
+					2DABF44D20B3A26F006E4831 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 2DABF42E20B3A26D006E4831;
+					};
+				};
+			};
+			buildConfigurationList = 2DABF42A20B3A26D006E4831 /* Build configuration list for PBXProject "Mundial2018" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DABF42620B3A26D006E4831;
+			productRefGroup = 2DABF43020B3A26D006E4831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DABF42E20B3A26D006E4831 /* Mundial2018 */,
+				2DABF44220B3A26F006E4831 /* Mundial2018Tests */,
+				2DABF44D20B3A26F006E4831 /* Mundial2018UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DABF42D20B3A26D006E4831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DABF43D20B3A26F006E4831 /* LaunchScreen.storyboard in Resources */,
+				2DABF43A20B3A26F006E4831 /* Assets.xcassets in Resources */,
+				2DABF43820B3A26D006E4831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DABF44120B3A26F006E4831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DABF44C20B3A26F006E4831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1187C652EF1198D87399F19C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mundial2018-Mundial2018Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F8C62B23A98B5DB9C66D7E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E71546515D7B2C8E26F5941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mundial2018-Mundial2018UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6CFFC57ACAE648F87A95C4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mundial2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42DF2AFB607F57B267E3D1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018/Pods-Mundial2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018/Pods-Mundial2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09DF11D6ACC1C41C91B6565 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DABF42B20B3A26D006E4831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAE3BBE20B64C7900C2C027 /* MatchViewController.swift in Sources */,
+				2D6E7E0320B509AE00005E77 /* Session.swift in Sources */,
+				2D93173820B7B96400A07727 /* AlineacionViewController.swift in Sources */,
+				2DABF43520B3A26D006E4831 /* ViewController.swift in Sources */,
+				2DC0659D20BBB93F004CF351 /* GroupsViewController.swift in Sources */,
+				2DABF43320B3A26D006E4831 /* AppDelegate.swift in Sources */,
+				2DABF46120B3D0BC006E4831 /* FixturesViewController.swift in Sources */,
+				2D6E7E0120B501D500005E77 /* CeldasGralesTableViewCell.swift in Sources */,
+				2DFA6C8920BE504B00EB4C36 /* EstadiumsViewController.swift in Sources */,
+				2D3EB75720BCF721003E818E /* PlayersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DABF43F20B3A26F006E4831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DABF44820B3A26F006E4831 /* Mundial2018Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DABF44A20B3A26F006E4831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DABF45320B3A26F006E4831 /* Mundial2018UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DABF44520B3A26F006E4831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DABF42E20B3A26D006E4831 /* Mundial2018 */;
+			targetProxy = 2DABF44420B3A26F006E4831 /* PBXContainerItemProxy */;
+		};
+		2DABF45020B3A26F006E4831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DABF42E20B3A26D006E4831 /* Mundial2018 */;
+			targetProxy = 2DABF44F20B3A26F006E4831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DABF43620B3A26D006E4831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DABF43720B3A26D006E4831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DABF43B20B3A26F006E4831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DABF43C20B3A26F006E4831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DABF45520B3A26F006E4831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DABF45620B3A26F006E4831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DABF45820B3A26F006E4831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65EFDE851B8A83FC1BB2771C /* Pods-Mundial2018.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3KUQBS6U;
+				INFOPLIST_FILE = Mundial2018/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armoving.Mundial2018;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DABF45920B3A26F006E4831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C85299F1FA87EA75152F3B3 /* Pods-Mundial2018.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3KUQBS6U;
+				INFOPLIST_FILE = Mundial2018/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armoving.Mundial2018;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DABF45B20B3A26F006E4831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F3A029ED48C08E0984B871 /* Pods-Mundial2018-Mundial2018Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3KUQBS6U;
+				INFOPLIST_FILE = Mundial2018Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armoving.Mundial2018Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mundial2018.app/Mundial2018";
+			};
+			name = Debug;
+		};
+		2DABF45C20B3A26F006E4831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3228657F36EA986452B155E3 /* Pods-Mundial2018-Mundial2018Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3KUQBS6U;
+				INFOPLIST_FILE = Mundial2018Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armoving.Mundial2018Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mundial2018.app/Mundial2018";
+			};
+			name = Release;
+		};
+		2DABF45E20B3A26F006E4831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2481ABAB650B38D1C7DA3B6 /* Pods-Mundial2018-Mundial2018UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3KUQBS6U;
+				INFOPLIST_FILE = Mundial2018UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armoving.Mundial2018UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mundial2018;
+			};
+			name = Debug;
+		};
+		2DABF45F20B3A26F006E4831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE64BB3F1E36BB119134E2F /* Pods-Mundial2018-Mundial2018UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3KUQBS6U;
+				INFOPLIST_FILE = Mundial2018UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armoving.Mundial2018UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mundial2018;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DABF42A20B3A26D006E4831 /* Build configuration list for PBXProject "Mundial2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DABF45520B3A26F006E4831 /* Debug */,
+				2DABF45620B3A26F006E4831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DABF45720B3A26F006E4831 /* Build configuration list for PBXNativeTarget "Mundial2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DABF45820B3A26F006E4831 /* Debug */,
+				2DABF45920B3A26F006E4831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DABF45A20B3A26F006E4831 /* Build configuration list for PBXNativeTarget "Mundial2018Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DABF45B20B3A26F006E4831 /* Debug */,
+				2DABF45C20B3A26F006E4831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DABF45D20B3A26F006E4831 /* Build configuration list for PBXNativeTarget "Mundial2018UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DABF45E20B3A26F006E4831 /* Debug */,
+				2DABF45F20B3A26F006E4831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DABF42720B3A26D006E4831 /* Project object */;
+}

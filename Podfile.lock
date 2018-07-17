@@ -1,0 +1,22 @@
+PODS:
+  - ScrollableSegmentedControl (1.3.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+
+DEPENDENCIES:
+  - ScrollableSegmentedControl (~> 1.3.0)
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ScrollableSegmentedControl
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  ScrollableSegmentedControl: a90ae91537fd670a46b177301d035223e3bd149e
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+
+PODFILE CHECKSUM: 20951cb2ce12965415d8229f0c064b7f467ba92d
+
+COCOAPODS: 1.5.2
