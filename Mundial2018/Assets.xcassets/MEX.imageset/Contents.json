@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "980px-Flag_of_Mexico.svg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "980px-Flag_of_Mexico.svg-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "980px-Flag_of_Mexico.svg-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

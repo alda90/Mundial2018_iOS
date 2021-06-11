@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "2560px-Flag_of_South_Korea.svg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "2560px-Flag_of_South_Korea.svg-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "2560px-Flag_of_South_Korea.svg-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

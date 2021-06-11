@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Flag_of_Argentina_(1861-2012).jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Flag_of_Argentina_(1861-2012)-1.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Flag_of_Argentina_(1861-2012)-2.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

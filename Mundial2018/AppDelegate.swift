@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        if #available(iOS 13.0, *) {
+//            let statusBar =  UIView()
+//              statusBar.frame = UIApplication.shared.statusBarFrame
+//              statusBar.backgroundColor = colorSecundario
+//              UIApplication.shared.keyWindow?.addSubview(statusBar)
+//        } else {
+//            let statusBar1: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
+//            statusBar1.backgroundColor = colorSecundario
+//        }
         return true
     }
 

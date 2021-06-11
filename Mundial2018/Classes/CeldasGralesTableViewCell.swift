@@ -13,6 +13,9 @@ class CeldasGralesTableViewCell: UITableViewCell {
     
     //// Main Matches
     
+    
+    @IBOutlet weak var viewBackground: UIView!
+    
     @IBOutlet weak var imgLocal: UIImageView!
     @IBOutlet weak var imgVisitante: UIImageView!
     
@@ -77,6 +80,7 @@ class CeldasGralesTableViewCell: UITableViewCell {
     @IBOutlet weak var lblEstadio: UILabel!
     @IBOutlet weak var lblCapacidad: UILabel!
     @IBOutlet weak var lblSede: UILabel!
+    @IBOutlet weak var viewBackEstadiums: UIView!
     
     
     override func awakeFromNib() {

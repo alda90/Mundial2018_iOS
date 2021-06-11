@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,12 @@
 		2DFA6C8920BE504B00EB4C36 /* EstadiumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA6C8820BE504B00EB4C36 /* EstadiumsViewController.swift */; };
 		41D90C341800A07482CBE948 /* Pods_Mundial2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2775006CDBC3FEE9BEE564D5 /* Pods_Mundial2018.framework */; };
 		66D55D8E94CEA681860AC1CD /* Pods_Mundial2018_Mundial2018UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9396D873876A7880B1E128E5 /* Pods_Mundial2018_Mundial2018UITests.framework */; };
+		CF731C3926629BE300314BF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF731C3826629BE300314BF9 /* Constants.swift */; };
+		CF8EA7A72661639100151CB3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EA7A62661639100151CB3 /* Response.swift */; };
+		CFC527DF26629521003ED5AA /* AlertErrorGral.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC527DE26629521003ED5AA /* AlertErrorGral.swift */; };
+		CFC527E42662958A003ED5AA /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC527E32662958A003ED5AA /* AlertController.swift */; };
+		CFC527F426629896003ED5AA /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC527F326629896003ED5AA /* ConnectionCheck.swift */; };
+		CFC527FA2662994D003ED5AA /* RestApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC527F92662994D003ED5AA /* RestApiCalls.swift */; };
 		FE1CE32CDDD4F319F0519814 /* Pods_Mundial2018_Mundial2018Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E31AB690F1CB6BA64867742 /* Pods_Mundial2018_Mundial2018Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +80,12 @@
 		7FE64BB3F1E36BB119134E2F /* Pods-Mundial2018-Mundial2018UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018-Mundial2018UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests.release.xcconfig"; sourceTree = "<group>"; };
 		9396D873876A7880B1E128E5 /* Pods_Mundial2018_Mundial2018UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mundial2018_Mundial2018UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F3A029ED48C08E0984B871 /* Pods-Mundial2018-Mundial2018Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018-Mundial2018Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF731C3826629BE300314BF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF8EA7A62661639100151CB3 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CFC527DE26629521003ED5AA /* AlertErrorGral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertErrorGral.swift; sourceTree = "<group>"; };
+		CFC527E32662958A003ED5AA /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		CFC527F326629896003ED5AA /* ConnectionCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCheck.swift; sourceTree = "<group>"; };
+		CFC527F92662994D003ED5AA /* RestApiCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiCalls.swift; sourceTree = "<group>"; };
 		E2481ABAB650B38D1C7DA3B6 /* Pods-Mundial2018-Mundial2018UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mundial2018-Mundial2018UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				2D6E7E0020B501D500005E77 /* CeldasGralesTableViewCell.swift */,
-				2D6E7E0220B509AE00005E77 /* Session.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -119,7 +130,6 @@
 			children = (
 				2DABF43120B3A26D006E4831 /* Mundial2018 */,
 				2DABF44620B3A26F006E4831 /* Mundial2018Tests */,
-				2DABF45120B3A26F006E4831 /* Mundial2018UITests */,
 				2DABF43020B3A26D006E4831 /* Products */,
 				C3AF87F39B6A48405B8590F7 /* Pods */,
 				788BDFACF6DC668115594B43 /* Frameworks */,
@@ -139,19 +149,17 @@
 		2DABF43120B3A26D006E4831 /* Mundial2018 */ = {
 			isa = PBXGroup;
 			children = (
+				CFC527F8266298DF003ED5AA /* NetworkManager */,
+				CFC527DA26629428003ED5AA /* Resources */,
+				CF8EA7A52661630600151CB3 /* Models */,
+				CFC527CE2662936E003ED5AA /* Controllers */,
 				2D6E7DFF20B501C200005E77 /* Classes */,
 				2DABF43220B3A26D006E4831 /* AppDelegate.swift */,
-				2DABF43420B3A26D006E4831 /* ViewController.swift */,
 				2DABF43620B3A26D006E4831 /* Main.storyboard */,
 				2DABF43920B3A26F006E4831 /* Assets.xcassets */,
 				2DABF43B20B3A26F006E4831 /* LaunchScreen.storyboard */,
 				2DABF43E20B3A26F006E4831 /* Info.plist */,
-				2DABF46020B3D0BC006E4831 /* FixturesViewController.swift */,
-				2DAE3BBD20B64C7900C2C027 /* MatchViewController.swift */,
-				2D93173720B7B96400A07727 /* AlineacionViewController.swift */,
-				2DC0659C20BBB93F004CF351 /* GroupsViewController.swift */,
-				2D3EB75620BCF721003E818E /* PlayersViewController.swift */,
-				2DFA6C8820BE504B00EB4C36 /* EstadiumsViewController.swift */,
+				2DABF45120B3A26F006E4831 /* Mundial2018UITests */,
 			);
 			path = Mundial2018;
 			sourceTree = "<group>";
@@ -195,6 +203,48 @@
 				7FE64BB3F1E36BB119134E2F /* Pods-Mundial2018-Mundial2018UITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF8EA7A52661630600151CB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF8EA7A62661639100151CB3 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CFC527CE2662936E003ED5AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DABF43420B3A26D006E4831 /* ViewController.swift */,
+				2DABF46020B3D0BC006E4831 /* FixturesViewController.swift */,
+				2DAE3BBD20B64C7900C2C027 /* MatchViewController.swift */,
+				2D93173720B7B96400A07727 /* AlineacionViewController.swift */,
+				2DC0659C20BBB93F004CF351 /* GroupsViewController.swift */,
+				2D3EB75620BCF721003E818E /* PlayersViewController.swift */,
+				2DFA6C8820BE504B00EB4C36 /* EstadiumsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CFC527DA26629428003ED5AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E7E0220B509AE00005E77 /* Session.swift */,
+				CFC527DE26629521003ED5AA /* AlertErrorGral.swift */,
+				CFC527E32662958A003ED5AA /* AlertController.swift */,
+				CFC527F326629896003ED5AA /* ConnectionCheck.swift */,
+				CF731C3826629BE300314BF9 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CFC527F8266298DF003ED5AA /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CFC527F92662994D003ED5AA /* RestApiCalls.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,19 +403,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mundial2018-Mundial2018Tests/Pods-Mundial2018-Mundial2018Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8E71546515D7B2C8E26F5941 /* [CP] Check Pods Manifest.lock */ = {
@@ -409,19 +456,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018/Pods-Mundial2018-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mundial2018/Pods-Mundial2018-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mundial2018/Pods-Mundial2018-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018/Pods-Mundial2018-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mundial2018/Pods-Mundial2018-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F09DF11D6ACC1C41C91B6565 /* [CP] Embed Pods Frameworks */ = {
@@ -429,19 +473,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mundial2018-Mundial2018UITests/Pods-Mundial2018-Mundial2018UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -451,16 +492,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC527E42662958A003ED5AA /* AlertController.swift in Sources */,
 				2DAE3BBE20B64C7900C2C027 /* MatchViewController.swift in Sources */,
 				2D6E7E0320B509AE00005E77 /* Session.swift in Sources */,
 				2D93173820B7B96400A07727 /* AlineacionViewController.swift in Sources */,
 				2DABF43520B3A26D006E4831 /* ViewController.swift in Sources */,
+				CFC527FA2662994D003ED5AA /* RestApiCalls.swift in Sources */,
 				2DC0659D20BBB93F004CF351 /* GroupsViewController.swift in Sources */,
+				CF731C3926629BE300314BF9 /* Constants.swift in Sources */,
 				2DABF43320B3A26D006E4831 /* AppDelegate.swift in Sources */,
 				2DABF46120B3D0BC006E4831 /* FixturesViewController.swift in Sources */,
+				CFC527F426629896003ED5AA /* ConnectionCheck.swift in Sources */,
+				CF8EA7A72661639100151CB3 /* Response.swift in Sources */,
 				2D6E7E0120B501D500005E77 /* CeldasGralesTableViewCell.swift in Sources */,
 				2DFA6C8920BE504B00EB4C36 /* EstadiumsViewController.swift in Sources */,
 				2D3EB75720BCF721003E818E /* PlayersViewController.swift in Sources */,
+				CFC527DF26629521003ED5AA /* AlertErrorGral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,13 +682,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = VJ3KUQBS6U;
 				INFOPLIST_FILE = Mundial2018/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = armoving.Mundial2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -655,13 +704,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = VJ3KUQBS6U;
 				INFOPLIST_FILE = Mundial2018/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = armoving.Mundial2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

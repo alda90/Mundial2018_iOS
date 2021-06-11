@@ -7,7 +7,8 @@ target 'Mundial2018' do
 
   # Pods for Mundial2018
   pod 'ScrollableSegmentedControl', '~> 1.3.0'
-pod 'SDWebImage', '~> 4.0'
+  pod 'SDWebImage', '~> 4.0'
+  pod 'SVProgressHUD'
 
   target 'Mundial2018Tests' do
     #inherit! :search_paths
